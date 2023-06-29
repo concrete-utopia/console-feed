@@ -24,6 +24,7 @@ export const Root = styled('div')({
 /**
  * console-message
  */
+// @ts-ignore
 export const Message = styled<Props, any>('div')(
   ({ theme: { styles, method } }: Props) => ({
     position: 'relative',
@@ -52,6 +53,7 @@ export const Message = styled<Props, any>('div')(
 /**
  * message-icon
  */
+// @ts-ignore
 export const Icon = styled<Props, any>('div')(
   ({ theme: { styles, method } }: Props) => ({
     width: styles.LOG_ICON_WIDTH,
@@ -66,6 +68,7 @@ export const Icon = styled<Props, any>('div')(
 /**
  * console-content
  */
+// @ts-ignore
 export const Content = styled<Props, any>('div')(
   ({ theme: { styles, method } }: Props) => ({
     clear: 'right',
